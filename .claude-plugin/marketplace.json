@@ -11,14 +11,25 @@
   "plugins": [
     {
       "name": "evidence-dev",
-      "source": "./plugins/evidence-dev",
+      "source": "devkindhq/evidence-dev-skills",
       "description": "Claude Code skills for Evidence.dev — 9 skills covering SQL queries, charts, data components, maps, UI, data sources, CLI and custom Svelte components",
       "version": "1.0.3",
       "author": {
         "name": "Ali Kazim"
       },
       "category": "analytics",
-      "keywords": ["evidence-dev", "evidence", "analytics", "charts", "sql", "reporting", "bi", "business-intelligence", "svelte", "duckdb"]
+      "keywords": [
+        "evidence-dev",
+        "evidence",
+        "analytics",
+        "charts",
+        "sql",
+        "reporting",
+        "bi",
+        "business-intelligence",
+        "svelte",
+        "duckdb"
+      ]
     },
     {
       "name": "seo",
@@ -29,7 +40,17 @@
         "name": "Ali Kazim"
       },
       "category": "seo",
-      "keywords": ["seo", "search-quality-rater", "google", "qrg", "eeat", "content-quality", "search", "e-e-a-t", "needs-met"]
+      "keywords": [
+        "seo",
+        "search-quality-rater",
+        "google",
+        "qrg",
+        "eeat",
+        "content-quality",
+        "search",
+        "e-e-a-t",
+        "needs-met"
+      ]
     },
     {
       "name": "security",
@@ -40,7 +61,17 @@
         "name": "Ali Kazim"
       },
       "category": "security",
-      "keywords": ["security", "reconnaissance", "tech-detection", "whatweb", "theharvester", "mcp-server", "osint", "fingerprinting", "tech-stack"]
+      "keywords": [
+        "security",
+        "reconnaissance",
+        "tech-detection",
+        "whatweb",
+        "theharvester",
+        "mcp-server",
+        "osint",
+        "fingerprinting",
+        "tech-stack"
+      ]
     }
   ]
 }

@@ -13,17 +13,7 @@ Repository: https://github.com/devkindhq/agency-marketplace
 
 ```
 plugins/
-├── evidence-dev/
-│   └── skills/
-│       ├── evidence-core-concepts   ← SQL queries, syntax, templating, themes
-│       ├── evidence-charts          ← LineChart, BarChart, AreaChart, and 10 more
-│       ├── evidence-data-components ← BigValue, DataTable, Delta, Value
-│       ├── evidence-inputs          ← Dropdown, Slider, DateRange, DimensionGrid...
-│       ├── evidence-maps            ← AreaMap, BubbleMap, PointMap, USMap
-│       ├── evidence-ui              ← Accordion, Grid, Tabs, Modal, Alert...
-│       ├── evidence-data-sources    ← BigQuery, DuckDB, Postgres, Snowflake...
-│       ├── evidence-cli             ← install, dev, build, deploy
-│       └── evidence-custom          ← custom Svelte components, plugin dev
+├── evidence-dev → sourced from standalone repo: devkindhq/evidence-dev-skills (9 skills)
 ├── seo/
 │   └── skills/
 │       └── search-quality-rater     ← Google Quality Rater Guidelines (E-E-A-T)
@@ -76,6 +66,8 @@ claude plugin marketplace update agency-marketplace
 ### evidence-dev
 
 > Complete Claude Code skill suite for [Evidence.dev](https://evidence.dev) — the open-source business intelligence framework that lets you write reports in Markdown with SQL.
+>
+> **Source:** standalone repo [`devkindhq/evidence-dev-skills`](https://github.com/devkindhq/evidence-dev-skills) — 9 skills, installable directly via `npx skills add devkindhq/evidence-dev-skills`.
 
 9 skills with progressive disclosure — quick reference at the top, full prop tables at the bottom. All props sourced directly from the Evidence.dev documentation.
 
