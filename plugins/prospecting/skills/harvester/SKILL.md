@@ -1,6 +1,6 @@
 ---
 name: harvester
-description: OSINT domain intelligence skill — use when asked to research a company domain, find email addresses, subdomains, hosts, or employee names associated with a target domain for stack analysis or security reconnaissance.
+description: OSINT domain intelligence skill for prospecting — use when asked to research a company domain before outreach, find email addresses, subdomains, hosts, or employee names associated with a target domain for lead generation and stack analysis.
 ---
 
 # theHarvester — OSINT Domain Intelligence
@@ -12,13 +12,13 @@ Invoke when the user asks to:
 - "Find employee names at company.com for outreach"
 - "Run OSINT on this domain"
 - "What hosts are associated with this company?"
-- Any sales or security context where gathering publicly available information about a domain is the goal
+- Any sales or prospecting context where gathering publicly available information about a domain is the goal
 
 **Important legal/ethical constraint:** Only use against domains you own or have explicit written permission to research. Unauthorised OSINT may be illegal in your jurisdiction.
 
 ## Tools Required
-- `mcp__plugin_security_theharvester__harvest_domain` — primary tool for running theHarvester
-- `mcp__plugin_security_theharvester__get_harvest_results` — for retrieving results of a previous harvest
+- `mcp__plugin_prospecting_theharvester__harvest_domain` — primary tool for running theHarvester
+- `mcp__plugin_prospecting_theharvester__get_harvest_results` — for retrieving results of a previous harvest
 
 ## Usage
 

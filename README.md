@@ -2,10 +2,10 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Plugins](https://img.shields.io/badge/plugins-3-green)
-![Skills](https://img.shields.io/badge/skills-11-green)
+![Skills](https://img.shields.io/badge/skills-12-green)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-compatible-blueviolet)
 
-Agency Marketplace is a collection of Claude Code plugins and skills built by DevKind. Each plugin bundles domain-specific AI agent skills you can install into Claude Code in one command. Some plugins also ship MCP servers (Model Context Protocol) for live tool-use capabilities -- for example, the security plugin runs WhatWeb via Docker as an MCP server.
+Agency Marketplace is a collection of Claude Code plugins and skills built by DevKind. Each plugin bundles domain-specific AI agent skills you can install into Claude Code in one command. Some plugins also ship MCP servers (Model Context Protocol) for live tool-use capabilities -- for example, the prospecting plugin runs WhatWeb via Docker as an MCP server.
 
 Repository: https://github.com/devkindhq/agency-marketplace
 
@@ -27,7 +27,7 @@ plugins/
 ├── seo/
 │   └── skills/
 │       └── search-quality-rater     ← Google Quality Rater Guidelines (E-E-A-T)
-└── security/
+└── prospecting/
     └── skills/
         ├── tech-detector            ← Web tech fingerprinting via WhatWeb MCP server
         └── harvester                ← OSINT domain intelligence via theHarvester MCP server
@@ -37,7 +37,7 @@ plugins/
 
 ## Prerequisites
 - [Claude Code](https://claude.ai/code) CLI installed
-- [Docker](https://docs.docker.com/get-docker/) -- required for the security plugin's MCP servers (WhatWeb, theHarvester)
+- [Docker](https://docs.docker.com/get-docker/) -- required for the prospecting plugin's MCP servers (WhatWeb, theHarvester)
 
 ## Install
 
@@ -103,16 +103,18 @@ claude plugin marketplace update agency-marketplace
 
 ---
 
-### security
+### prospecting
 
-> Web tech fingerprinting and OSINT domain intelligence via WhatWeb and theHarvester MCP servers.
+> Sales prospecting intelligence via WhatWeb and theHarvester MCP servers — lead qualification through web technology fingerprinting (WhatWeb) and OSINT domain intelligence for lead generation (theHarvester).
 
 Requires Docker. MCP servers pull from Docker Hub automatically on first use.
 
+Source repos: [devkindhq/whatweb-mcp](https://github.com/devkindhq/whatweb-mcp) · [devkindhq/theharvester-mcp](https://github.com/devkindhq/theharvester-mcp)
+
 | Skill | What it covers |
 |-------|---------------|
-| `tech-detector` | Fingerprint web technology stacks using WhatWeb (CMS, frameworks, servers, analytics, CDN, and more) |
-| `harvester` | OSINT domain intelligence: subdomains, emails, IPs, and open-source data via theHarvester |
+| `tech-detector` | Qualify leads by fingerprinting web technology stacks using WhatWeb (CMS, frameworks, servers, analytics, CDN, and more) |
+| `harvester` | OSINT lead generation: subdomains, emails, IPs, and open-source data via theHarvester |
 
 ---
 

@@ -32,15 +32,15 @@
       "keywords": ["seo", "search-quality-rater", "google", "qrg", "eeat", "content-quality", "search", "e-e-a-t", "needs-met"]
     },
     {
-      "name": "security",
-      "source": "./plugins/security",
-      "description": "Claude Code security skills with MCP servers — web technology fingerprinting via WhatWeb and OSINT domain intelligence via theHarvester (Model Context Protocol)",
-      "version": "1.2.1",
+      "name": "prospecting",
+      "source": "./plugins/prospecting",
+      "description": "Claude Code prospecting skills with MCP servers — lead qualification via web technology fingerprinting (WhatWeb) and OSINT domain intelligence for lead generation (theHarvester, Model Context Protocol)",
+      "version": "1.3.0",
       "author": {
         "name": "Ali Kazim"
       },
-      "category": "security",
-      "keywords": ["security", "reconnaissance", "tech-detection", "whatweb", "theharvester", "mcp-server", "osint", "fingerprinting", "tech-stack"]
+      "category": "sales",
+      "keywords": ["prospecting", "lead-generation", "sales-intelligence", "tech-detection", "whatweb", "theharvester", "mcp-server", "osint", "fingerprinting", "tech-stack"]
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 name: tech-detector
-description: Detect the technology stack of any website. Use when someone shares a URL, asks "what are they running", "what's their stack", or wants to audit a site or research a competitor. Runs WhatWeb scan and returns stack insights and analysis angles.
-tools: [mcp__plugin_security_whatweb__whatweb_scan]
+description: Detect the technology stack of any website for lead qualification and competitor research. Use when someone shares a URL, asks "what are they running", "what's their stack", or wants to research a prospect or competitor before outreach. Runs WhatWeb scan and returns stack insights and analysis angles.
+tools: [mcp__plugin_prospecting_whatweb__whatweb_scan]
 ---
 
 # Tech Detector — Stack Analysis
@@ -18,7 +18,7 @@ Trigger when:
 
 ## How to run the scan
 
-Call `mcp__plugin_security_whatweb__whatweb_scan` with:
+Call `mcp__plugin_prospecting_whatweb__whatweb_scan` with:
 - `target`: the URL provided
 - `aggression`: `normal` (default — non-intrusive, safe for live sites)
 

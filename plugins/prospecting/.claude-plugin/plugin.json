@@ -1,0 +1,10 @@
+{
+  "name": "prospecting",
+  "version": "1.3.0",
+  "description": "Sales prospecting tools — lead qualification via web technology fingerprinting (WhatWeb) and OSINT domain intelligence for lead generation (theHarvester)",
+  "author": {
+    "name": "Ali Kazim"
+  },
+  "license": "MIT",
+  "keywords": ["prospecting", "lead-generation", "sales-intelligence", "tech-detection", "whatweb", "theharvester", "mcp-server", "osint", "fingerprinting", "tech-stack"]
+}
